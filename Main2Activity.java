@@ -6,7 +6,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 public class Main2Activity extends AppCompatActivity {
-public static final String TAG ="Main2Activity"
+public static final String TAG ="Main2Activity";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,4 +48,4 @@ public static final String TAG ="Main2Activity"
         Log.e(TAG, "onDestroy: called");
     }
     }
-}
+
